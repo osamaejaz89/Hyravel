@@ -41,12 +41,12 @@ export default class fourWheelScreen extends React.Component {
     return (
       <View style={styles.navigate}>
         <SafeAreaView style={{ flex: 1 }}>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={{ padding: 10 }}
             onPress={this.props.navigation.openDrawer}
           >
             <FontAwesome5 name="bars" size={24} color="#161924" />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
 
           <View style={{ flex: 1 }}>
             <View style={(styles.navigate, styles.container)}>

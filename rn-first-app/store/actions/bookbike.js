@@ -9,7 +9,7 @@ export const fetchBike = () => {
     const userId = firebase.auth().currentUser.uid;
     const displayName = firebase.auth().currentUser.displayName;
     const response = await fetch(
-      `https://hyravelapp.firebaseio.com/bookbike/${userId}.json`
+      `https://hyravelproject.firebaseio.com/bookbike/${userId}.json`
     );
     const resData = await response.json();
     const loadedBook = [];

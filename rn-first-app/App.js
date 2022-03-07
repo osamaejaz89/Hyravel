@@ -22,14 +22,14 @@ const rootReducer = combineReducers({
 const store = createStore(rootReducer, applyMiddleware(ReduxThunk));
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBiarkLSD7Iuaj_Tw7QmPl7gRLYm65ESLA",
-  authDomain: "hyravelapp.firebaseapp.com",
-  databaseURL: "https://hyravelapp.firebaseio.com",
-  projectId: "hyravelapp",
-  storageBucket: "hyravelapp.appspot.com",
-  messagingSenderId: "983836982203",
-  appId: "1:983836982203:web:1e4f998947883eb7e8e29e",
-  measurementId: "G-TPL7FE0N4M",
+  apiKey: "AIzaSyBpdfiIp41H9IrYUtjA9ked_wqEnNEEfkQ",
+  authDomain: "hyravelproject.firebaseapp.com",
+  databaseURL: "https://hyravelproject.firebaseio.com",
+  projectId: "hyravelproject",
+  storageBucket: "hyravelproject.appspot.com",
+  messagingSenderId: "163913437781",
+  appId: "1:163913437781:web:35e3ba7530520dd5b43adc",
+  measurementId: "G-YTPY62W3K0",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

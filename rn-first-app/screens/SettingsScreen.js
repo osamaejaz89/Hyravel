@@ -25,12 +25,12 @@ export default class SettingsScreen extends React.Component {
   render() {
     return (
       <View>
-        <TouchableOpacity
+        {/* <TouchableOpacity
           style={{ padding: 15 }}
           onPress={this.props.navigation.openDrawer}
         >
           <FontAwesome5 name="bars" size={24} color="#161924" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         <View style={styles.container}>
           <Text>Settings Screen</Text>
         </View>

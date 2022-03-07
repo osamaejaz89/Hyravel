@@ -13,12 +13,12 @@ export default class Screen extends React.Component {
     return (
       <View style={styles.container}>
         <SafeAreaView style={{ flex: 1 }}>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={{ padding: 15 }}
             onPress={this.props.navigation.openDrawer}
           >
             <FontAwesome5 name="bars" size={24} color="#161924" />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
           <View
             style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
           >

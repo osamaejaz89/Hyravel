@@ -6,7 +6,7 @@ export const FETCH_DRIVER = "FETCH_DRIVER";
 export const fetchDriver = () => {
   return async (dispatch) => {
     const response = await fetch(
-      "https://hyravelapp.firebaseio.com/DriverTable.json"
+      "https://hyravelproject.firebaseio.com/DriverTable.json"
     );
 
     const resData = await response.json();

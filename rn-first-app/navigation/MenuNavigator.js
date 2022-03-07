@@ -33,6 +33,7 @@ import CarDetails from "../screens/CarDetails";
 import BikeDetails from "../screens/BikeDetails";
 import BookScreen from "../screens/BookScreen";
 import BookBikeScreen from "../screens/BookBikeScreen";
+import Header from "../components/HeaderButton";
 
 const DrawerNavigator = createDrawerNavigator(
   {
@@ -116,7 +117,15 @@ const DrawerNavigator = createDrawerNavigator(
 );
 
 const AppStack = createStackNavigator({
-  Navigation: DrawerNavigator,
+  Home: {
+    screen: DrawerNavigator,
+    navigationOptions: ({ navigation }) => {
+      return {
+        headerTitle: () => <Header navigation={navigation} />,
+        headerShown: false,
+      };
+    },
+  },
   Car: {
     screen: CarBrand,
   },
@@ -130,6 +139,7 @@ const AppStack = createStackNavigator({
   Book: BookScreen,
   BookBike: BookBikeScreen,
   DriverNotFound: drivernotfound,
+  Profile: ProfileScreen,
 });
 
 const AuthStack = createStackNavigator({

@@ -22,12 +22,12 @@ const touristScreen = (props) => {
   };
   return (
     <View>
-      <TouchableOpacity
+      {/* <TouchableOpacity
         style={{ padding: 15 }}
         onPress={props.navigation.openDrawer}
       >
         <FontAwesome5 name="bars" size={24} color="#161924" />
-      </TouchableOpacity>
+      </TouchableOpacity> */}
       <View style={styles.container}>
         <Text style={styles.title}>Select your Tour</Text>
       </View>

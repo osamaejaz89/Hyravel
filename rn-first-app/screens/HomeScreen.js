@@ -37,12 +37,12 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={styles.navigate}>
         <ScrollView>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={{ padding: 10 }}
             onPress={this.props.navigation.openDrawer}
           >
             <FontAwesome5 name="bars" size={24} color="#161924" />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
 
           <View style={{ flex: 1 }}>
             <View style={{ alignItems: "center", justifyContent: "center" }}>

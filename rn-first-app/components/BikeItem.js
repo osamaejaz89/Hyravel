@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   image: {
-    width: "100%",
+    width: "75%",
     height: "100%",
   },
   details: {

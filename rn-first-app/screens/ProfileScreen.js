@@ -8,12 +8,12 @@ export default class ReportScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.header}>
           <View>
-            <TouchableOpacity
+            {/* <TouchableOpacity
               style={{ padding: 15 }}
               onPress={this.props.navigation.openDrawer}
             >
               <FontAwesome5 name="bars" size={24} color="#fff" />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
           </View>
           <View style={styles.headerContent}>
             <Image style={styles.avatar} source={require("../assets/mj.jpg")} />
